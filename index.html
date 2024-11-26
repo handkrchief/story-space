@@ -10,12 +10,37 @@
     />
     <title>StorySpace</title>
   </head>
-  <body class="flex min-h-screen flex-col">
-    <!-- Header -->
-    <header class="flex items-center justify-between px-4 py-2">
-      <!-- Logo -->
-      <a href="#" class="font-heading text-3xl font-extrabold"> StorySpace </a>
-    </header>
+  <body>
+    <nav class="bg-white">
+      <div class="flex flex-wrap items-center justify-between p-6 mx-auto">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-3">
+          <span class="self-center text-2xl font-bold font-heading whitespace-nowrap">StorySpace</span>
+        </a>
+        <!-- Navigation -->
+        <ul class="flex items-center space-x-6 font-body">
+          <li>
+            <a href="#" class="hidden md:block">Read</a>
+          </li>
+          <li>
+            <a href="#" class="hidden md:block">Our Story</a>
+          </li>
+          <li>
+            <a href="#" class="hidden md:block">Write</a>
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 text-white bg-black rounded-full">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="bg-white">
+      <section class="flex flex-col items-center justify-center h-screen p-6 space-y-6 text-center">
+        
+
+      </section>
+    </main>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
