@@ -8,17 +8,19 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="/src/assets/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/src/assets/favicon-16x16.png" sizes="16x16" type="image/png">
     <title>StorySpace</title>
   </head>
-  <body>
-    <nav class="bg-white">
-      <div class="flex flex-wrap items-center justify-between p-6 mx-auto">
+  <body class="flex flex-col min-h-screen bg-white">
+    <nav class="border-b border-black">
+      <div class="flex items-center justify-between p-6 mx-auto">
         <!-- Logo -->
         <a href="#" class="flex items-center space-x-3">
-          <span class="self-center text-2xl font-bold font-heading whitespace-nowrap">StorySpace</span>
+          <span class="self-center text-2xl font-extrabold font-heading whitespace-nowrap">StorySpace</span>
         </a>
         <!-- Navigation -->
-        <ul class="flex items-center space-x-6 font-body">
+        <ul class="flex items-center space-x-6 font-bold font-body">
           <li>
             <a href="#" class="hidden md:block">Read</a>
           </li>
@@ -29,18 +31,61 @@
             <a href="#" class="hidden md:block">Write</a>
           </li>
           <li>
-            <a href="#" class="px-4 py-2 text-white bg-black rounded-full">Login</a>
+            <button>
+              <a href="#" class="px-4 py-2 text-white bg-black rounded-full">Login</a>
+            </button>
           </li>
         </ul>
       </div>
     </nav>
 
-    <main class="bg-white">
-      <section class="flex flex-col items-center justify-center h-screen p-6 space-y-6 text-center">
+    <main class="flex-grow mt-8">
+      <section class="flex flex-col items-center justify-center p-6 space-y-10 md:items-start">
+        <h1 class="text-6xl font-extrabold font-heading">Read and Write Stories</h1>
         
+        <p class="font-bold md:hidden font-body">
+          A place to dream, a place to create, and a place to share.
+        </p>
 
+        <p class="hidden font-bold md:block font-body">
+          At StorySpace, everyone has a story to tell. Write your own, explore stories from others,
+          and get thoughtful feedback from a creative community.
+        </p>
+        <p class="hidden font-bold md:block font-body">
+          A place to dream, a place to create, and a place to share.
+        </p>
+
+        <button>
+          <a href="#" class="px-6 py-4 font-bold text-white bg-green-700 rounded-full font-body md:bg-black">Start Reading</a>
+        </button>
+      </section>
+
+      <section class="hidden">
+        <img src="/src/assets/bg-image.png" alt="StorySpace Logo" />
       </section>
     </main>
+
+    <footer>
+      <div class="p-2 text-white bg-black">
+        <ul class="flex items-center justify-center space-x-6 text-sm">
+          <li>
+            <a href="#" class="font-body font-extralight">About</a>
+          </li>
+          <li>
+            <a href="#" class="font-body font-extralight">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="font-body font-extralight md:hidden">Privacy</a>
+            <a href="#" class="hidden font-body font-extralight md:block">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="font-body font-extralight md:hidden">Terms</a>
+            <a href="#" class="hidden font-body font-extralight md:block">Terms of Service</a>
+          </li>
+        </ul>
+        
+      </div>
+    </footer>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
