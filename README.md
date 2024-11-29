@@ -6,7 +6,7 @@ A sleek and modern platform for reading and sharing stories, inspired by Medium.
 
 - **Responsive Design**: Optimized for all devices.
 - **Clean Aesthetics**: A unique design tailored for storytelling.
-- **Story Browsing:**: Explore curated stories and blog posts.
+- **Story Browsing**: Explore curated stories and blog posts.
 - **Practice Project**: Serves as a platform to practice HTML, CSS, JavaScript, Tailwind CSS, and version control with Git.
 
 ## Technologies Used
