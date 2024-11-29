@@ -14,7 +14,7 @@
   </head>
   <body class="flex flex-col min-h-screen bg-white">
     <nav class="border-b border-black">
-      <div class="flex items-center justify-between p-6 mx-auto">
+      <div class="flex items-center justify-between p-6 md:ml-[96px] md:mr-[96px]">
         <!-- Logo -->
         <a href="#" class="flex items-center space-x-3">
           <span class="self-center text-4xl font-extrabold font-heading whitespace-nowrap">StorySpace</span>
@@ -39,19 +39,19 @@
       </div>
     </nav>
 
-    <main class="flex flex-grow mt-8">
-      <section class="flex flex-col items-center justify-center p-6 space-y-10 md:items-start">
-        <h1 class="text-6xl font-extrabold font-heading ">Read and Write Stories</h1>
+    <main class="grid items-center flex-grow mt-8 md:grid-cols-12 gap-x-6">
+      <section class="p-6 space-y-10 md:col-span-6 md:ml-[96px]">
+        <h1 class="text-6xl font-extrabold md:text-7xl font-heading ">Read and Write Stories</h1>
         
         <p class="font-bold md:hidden font-body">
           A place to dream, a place to create, and a place to share.
         </p>
 
-        <p class="hidden font-bold md:block font-body">
+        <p class="hidden text-xl font-bold md:block font-body">
           At StorySpace, everyone has a story to tell. Write your own, explore stories from others,
           and get thoughtful feedback from a creative community.
         </p>
-        <p class="hidden font-bold md:block font-body">
+        <p class="hidden text-xl font-bold md:block font-body">
           A place to dream, a place to create, and a place to share.
         </p>
 
@@ -60,8 +60,8 @@
         </button>
       </section>
 
-      <section class="hidden md:block md:items-end">
-        <img src="/src/assets/bg-image.png" alt="StorySpace Logo" class="object-cover w-full h-full" />
+      <section class="hidden md:col-span-6 md:flex md:justify-center md:mr-[96px]">
+        <img src="/src/assets/bg-image.png" alt="StorySpace Logo" class="object-cover h-auto max-w-full" />
       </section>
     </main>
 
