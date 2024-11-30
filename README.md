@@ -12,10 +12,9 @@ A sleek and modern platform for reading and sharing stories, inspired by Medium.
 ## Technologies Used
 
 - **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
 - **Tailwind CSS**
 - **Vite**
+- **Figma**
 
 ## Project Status
 
