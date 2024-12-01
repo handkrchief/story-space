@@ -1,6 +1,6 @@
 # StorySpace
 
-A sleek and modern platform for reading and sharing stories, inspired by Medium. The project combines a fresh aesthetic with core blog functionality, providing a space for creative writing and exploration.
+A sleek and modern platform for reading stories, inspired by Medium.
 
 ## Features
 
