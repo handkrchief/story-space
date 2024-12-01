@@ -1,13 +1,12 @@
 # StorySpace
 
-A sleek and modern platform for reading stories, inspired by Medium.
+Front-end project to practice deploying a responsive landing page using Tailwind CSS. 
 
 ## Features
 
 - **Responsive Design**: Optimized for all devices.
 - **Clean Aesthetics**: A unique design tailored for storytelling.
-- **Story Browsing**: Explore curated stories and blog posts.
-- **Practice Project**: Serves as a platform to practice HTML, CSS, JavaScript, Tailwind CSS, and version control with Git.
+- **Practice Project**: Serves as a platform to practice HTML, CSS, Tailwind CSS, and version control with Git.
 
 ## Technologies Used
 
@@ -16,6 +15,3 @@ A sleek and modern platform for reading stories, inspired by Medium.
 - **Vite**
 - **Figma**
 
-## Project Status
-
-This project is currently in development. Stay tuned for updates!
